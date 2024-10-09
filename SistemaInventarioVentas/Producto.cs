@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace SistemaInventarioVentas
 {
-    internal class Producto
+    internal class Producto : EntidadBase
     {
-        public int Id { get; set; }
         public string Nombre { get; set; }
         public decimal Precio { get; set; }
         public int Cantidad { get; set; }
@@ -21,5 +20,12 @@ namespace SistemaInventarioVentas
             Precio = precio;
             Cantidad = cantidad;
         }
+
+        // Implementación del método abstracto
+        public override void MostrarInformacion()
+        {
+            Console.WriteLine($"Producto: {Nombre}, Precio: {Precio}, Cantidad: {Cantidad}");
+        }
     }
 }
+

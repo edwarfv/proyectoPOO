@@ -1,6 +1,6 @@
-C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\SistemaInventarioVentas.exe.config
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\SistemaInventarioVentas.exe
-C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\SistemaInventarioVentas.pdb
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\MySql.Data.dll
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\SistemaInventarioVentas.exe.config
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\EPPlus.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\EPPlus.Interfaces.dll
@@ -11,7 +11,6 @@ C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaI
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
-C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\MySql.Data.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\System.Buffers.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\System.Configuration.ConfigurationManager.dll
@@ -49,11 +48,20 @@ C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaI
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\System.ValueTuple.xml
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.csproj.AssemblyReference.cache
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.ClientesForm.resources
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.Form1.resources
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.LoginForm.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.PedidosForm.resources
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.Properties.Resources.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.ProveedoresForm.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.VentasForm.resources
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.csproj.GenerateResource.cache
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.csproj.CoreCompileInputs.cache
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaI.F1DA9814.Up2Date
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.exe
 C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.pdb
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\bin\Debug\SistemaInventarioVentas.pdb
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.PagosForm.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.MetodosPagoForm.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.MovimientosInventarioForm.resources
+C:\Users\edwar\Documents\PPO\ProgramacionOrientadaObjeto\Proyecto_final\SistemaInventarioVentas\SistemaInventarioVentas\obj\Debug\SistemaInventarioVentas.UsuariosForm.resources

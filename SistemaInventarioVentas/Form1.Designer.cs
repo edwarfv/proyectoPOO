@@ -26,8 +26,6 @@
      
         private void InitializeComponent()
         {
-            // Inicializa los controles del formulario, como los TextBox, Labels, DataGridView, y botones.
-
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCantidad = new System.Windows.Forms.TextBox();
@@ -41,13 +39,11 @@
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnReporte = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblCategoría = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
-            this.SuspendLayout();// Asigna posiciones y eventos a los controles.
+            this.SuspendLayout();
             // 
-            // Propiedades de los TextBox y Labels, incluidos eventos como txtBuscar_TextChanged.
-            // Define la estructura visual del formulario.
-
-
             // txtPrecio
             // 
             this.txtPrecio.Location = new System.Drawing.Point(31, 118);
@@ -126,13 +122,12 @@
             this.dgvProductos.RowTemplate.Height = 24;
             this.dgvProductos.Size = new System.Drawing.Size(884, 338);
             this.dgvProductos.TabIndex = 8;
-            this.dgvProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellClick);
-
+            this.dgvProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(31, 253);
+            this.btnAgregar.Location = new System.Drawing.Point(31, 338);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(96, 34);
             this.btnAgregar.TabIndex = 9;
@@ -142,7 +137,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(153, 253);
+            this.btnActualizar.Location = new System.Drawing.Point(153, 338);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(96, 34);
             this.btnActualizar.TabIndex = 10;
@@ -152,7 +147,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(32, 305);
+            this.btnEliminar.Location = new System.Drawing.Point(32, 390);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(95, 36);
             this.btnEliminar.TabIndex = 11;
@@ -162,7 +157,7 @@
             // 
             // btnReporte
             // 
-            this.btnReporte.Location = new System.Drawing.Point(22, 380);
+            this.btnReporte.Location = new System.Drawing.Point(22, 465);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(178, 37);
             this.btnReporte.TabIndex = 13;
@@ -170,11 +165,32 @@
             this.btnReporte.UseVisualStyleBackColor = true;
             this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(32, 252);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(217, 24);
+            this.comboBox1.TabIndex = 14;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // lblCategoría
+            // 
+            this.lblCategoría.AutoSize = true;
+            this.lblCategoría.Location = new System.Drawing.Point(29, 229);
+            this.lblCategoría.Name = "lblCategoría";
+            this.lblCategoría.Size = new System.Drawing.Size(186, 20);
+            this.lblCategoría.TabIndex = 15;
+            this.lblCategoría.Text = "Seleccione la categoría";
+            this.lblCategoría.Click += new System.EventHandler(this.label5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1406, 470);
+            this.ClientSize = new System.Drawing.Size(1406, 646);
+            this.Controls.Add(this.lblCategoría);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnReporte);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
@@ -213,5 +229,7 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblCategoría;
     }
 }
