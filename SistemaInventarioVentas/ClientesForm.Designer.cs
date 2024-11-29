@@ -128,7 +128,7 @@
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.RowHeadersWidth = 51;
             this.dgvClientes.RowTemplate.Height = 24;
-            this.dgvClientes.Size = new System.Drawing.Size(586, 299);
+            this.dgvClientes.Size = new System.Drawing.Size(843, 299);
             this.dgvClientes.TabIndex = 9;
             // 
             // btnAgregarCliente
@@ -139,6 +139,7 @@
             this.btnAgregarCliente.TabIndex = 10;
             this.btnAgregarCliente.Text = "Agregar Cliente";
             this.btnAgregarCliente.UseVisualStyleBackColor = true;
+            this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
             // 
             // btnActualizarCliente
             // 
@@ -148,6 +149,7 @@
             this.btnActualizarCliente.TabIndex = 11;
             this.btnActualizarCliente.Text = "Actualizar Cliente";
             this.btnActualizarCliente.UseVisualStyleBackColor = true;
+            this.btnActualizarCliente.Click += new System.EventHandler(this.btnActualizarCliente_Click);
             // 
             // btnEliminarCliente
             // 
@@ -157,6 +159,7 @@
             this.btnEliminarCliente.TabIndex = 12;
             this.btnEliminarCliente.Text = "Eliminar Cliente";
             this.btnEliminarCliente.UseVisualStyleBackColor = true;
+            this.btnEliminarCliente.Click += new System.EventHandler(this.btnEliminarCliente_Click);
             // 
             // txtBuscar
             // 
@@ -164,6 +167,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(449, 22);
             this.txtBuscar.TabIndex = 14;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // lblBuscar
             // 
@@ -196,6 +200,7 @@
             this.Controls.Add(this.txtNombre);
             this.Name = "ClientesForm";
             this.Text = "ClientesForm";
+          //  this.Load += new System.EventHandler(this.ClientesForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

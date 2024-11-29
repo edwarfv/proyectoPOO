@@ -19,6 +19,10 @@ namespace SistemaInventarioVentas
         {
             InitializeComponent();
             CargarClientes(); // Cargar la lista de clientes al iniciar el formulario
+            // Evento de búsqueda automática
+            txtBuscar.TextChanged += txtBuscar_TextChanged;
+            // Evento para manejar la selección de una fila en el DataGridView
+            dgvClientes.CellClick += dgvClientes_CellClick;
         }
 
         // Método para cargar los clientes desde la base de datos
@@ -26,7 +30,16 @@ namespace SistemaInventarioVentas
         {
             try
             {
-                dgvClientes.DataSource = db.ObtenerClientes(); // Mostrar los clientes en el DataGridView
+                dgvClientes.DataSource = db.ObtenerClientes();  // Cargar los clientes desde la base de datos
+
+                // Ajustar automáticamente el ancho de las columnas al contenido
+                dgvClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+                // Ajustar automáticamente la altura de las filas al contenido
+                dgvClientes.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
+                // Alinear el encabezado para que tenga una buena presentación
+                dgvClientes.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
             catch (Exception ex)
             {
@@ -37,14 +50,16 @@ namespace SistemaInventarioVentas
         // Evento para el botón de agregar cliente
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 // Crear una instancia de la clase Cliente con los datos del formulario
                 var cliente = new Cliente(txtNombre.Text, txtEmail.Text, txtTelefono.Text, txtDireccion.Text);
 
                 // Validar que los campos no estén vacíos
-                if (string.IsNullOrWhiteSpace(cliente.Nombre) || string.IsNullOrWhiteSpace(cliente.Email) ||
-                    string.IsNullOrWhiteSpace(cliente.Telefono) || string.IsNullOrWhiteSpace(cliente.Direccion))
+                if (string.IsNullOrWhiteSpace(cliente.Nombre) || 
+                    string.IsNullOrWhiteSpace(cliente.Email) ||
+                    string.IsNullOrWhiteSpace(cliente.Telefono) || 
+                    string.IsNullOrWhiteSpace(cliente.Direccion))
                 {
                     MessageBox.Show("Por favor, completa todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -61,14 +76,10 @@ namespace SistemaInventarioVentas
             {
                 MessageBox.Show($"Error al agregar el cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        // Evento para actualizar un cliente seleccionado
-        private void btnActualizarCliente_Click(object sender, EventArgs e)
-        {
+        }*/
             try
             {
-                // Asegúrate de que todos los TextBoxes tengan información
+                // Verificar que todos los campos tengan valores
                 if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
                     string.IsNullOrWhiteSpace(txtTelefono.Text) ||
                     string.IsNullOrWhiteSpace(txtEmail.Text) ||
@@ -78,35 +89,103 @@ namespace SistemaInventarioVentas
                     return;
                 }
 
-                // Verifica si hay alguna fila seleccionada
-                if (dgvClientes.SelectedRows.Count > 0)
+                // Validar longitud del número de teléfono
+                if (txtTelefono.Text.Length > 15) // Puedes ajustar la longitud según tu necesidad
                 {
-                    // Obtener el ID del cliente seleccionado
-                    int id = int.Parse(dgvClientes.SelectedRows[0].Cells["Id"].Value.ToString());
-
-                    // Crear una instancia del cliente pasando los argumentos requeridos
-                    var cliente = new Cliente(
-                        txtNombre.Text,
-                        txtTelefono.Text,
-                        txtEmail.Text,
-                        txtDireccion.Text
-                    )
-                    {
-                        Id = id // Asigna el ID al cliente
-                    };
-
-                    db.ActualizarCliente(cliente); // Llama al método para actualizar cliente en la base de datos
-                    CargarClientes(); // Recarga la lista de clientes
-                    LimpiarCampos(); // Limpia los campos después de actualizar
+                    MessageBox.Show("El número de teléfono no debe exceder los 15 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                else
-                {
-                    MessageBox.Show("Por favor, selecciona un cliente para actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+
+                // Crear una nueva instancia de Cliente con los valores ingresados
+                Cliente cliente = new Cliente(
+                    nombre: txtNombre.Text,
+                    telefono: txtTelefono.Text,
+                    email: txtEmail.Text,
+                    direccion: txtDireccion.Text
+                );
+
+                // Agregar cliente a la base de datos
+                db.AgregarCliente(cliente);
+
+                // Recargar la lista de clientes en el DataGridView
+                CargarClientes();
+
+                // Limpiar los campos después de agregar el cliente
+                LimpiarCampos();
+
+                // Mostrar mensaje de éxito
+                MessageBox.Show("Cliente agregado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al actualizar cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al agregar el cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        // Evento para actualizar un cliente seleccionado
+        private void btnActualizarCliente_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Verificar que haya una fila seleccionada en el DataGridView
+                if (dgvClientes.SelectedRows.Count > 0)
+                {
+                    // Validar que todos los campos estén completos
+                    if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                        string.IsNullOrWhiteSpace(txtEmail.Text) ||
+                        string.IsNullOrWhiteSpace(txtTelefono.Text) ||
+                        string.IsNullOrWhiteSpace(txtDireccion.Text))
+                    {
+                        MessageBox.Show("Por favor, completa todos los campos antes de actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return; // Salir si los campos no están completos
+                    }
+
+                    // Obtener el ID del cliente seleccionado desde el DataGridView
+                    int id = int.Parse(dgvClientes.SelectedRows[0].Cells["Id"].Value.ToString());
+
+                    // Crear una nueva instancia de Cliente con los valores ingresados en los campos
+                    Cliente cliente = new Cliente(
+                        nombre: txtNombre.Text,
+                        telefono: txtTelefono.Text,
+                        email: txtEmail.Text,
+                        direccion: txtDireccion.Text
+                    )
+                    {
+                        Id = id // Asignar el Id del cliente seleccionado
+                    };
+
+                    // Confirmación antes de proceder con la actualización
+                    DialogResult confirmacion = MessageBox.Show("¿Estás seguro de que deseas actualizar este cliente?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (confirmacion == DialogResult.Yes)
+                    {
+                        // Actualizar el cliente en la base de datos
+                        db.ActualizarCliente(cliente);
+
+                        // Recargar la lista de clientes en el DataGridView
+                        CargarClientes();
+
+                        // Limpiar los campos después de actualizar
+                        LimpiarCampos();
+
+                        // Mostrar mensaje de éxito
+                        MessageBox.Show("Cliente actualizado correctamente.", "Actualización Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    // Mensaje en caso de que no haya fila seleccionada
+                    MessageBox.Show("Por favor, selecciona un cliente para actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (FormatException ex)
+            {
+                // Manejar excepciones de formato inválido (por ejemplo, si se ingresa un valor no numérico en un campo numérico)
+                MessageBox.Show($"Por favor, ingresa valores válidos en los campos correspondientes. Error: {ex.Message}", "Error de Formato", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier otra excepción
+                MessageBox.Show($"Error al actualizar el cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -149,18 +228,18 @@ namespace SistemaInventarioVentas
             {
                 if (string.IsNullOrWhiteSpace(txtBuscar.Text))
                 {
-                    CargarClientes(); // Si el campo de búsqueda está vacío, cargar todos los clientes
+                    CargarClientes();  // Si el campo de búsqueda está vacío, mostrar todos los clientes
                 }
                 else
                 {
-                    // Buscar los clientes cuyo nombre coincida con el texto ingresado
-                    dgvClientes.DataSource = db.BuscarClientes(txtBuscar.Text);
+                    dgvClientes.DataSource = db.BuscarClientes(txtBuscar.Text);  // Filtrar clientes por nombre
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al buscar clientes: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         // Evento para seleccionar un cliente desde el DataGridView

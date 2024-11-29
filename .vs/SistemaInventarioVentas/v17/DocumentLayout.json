@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|c:\\users\\edwar\\documents\\ppo\\programacionorientadaobjeto\\proyecto_final\\sistemainventarioventas\\sistemainventarioventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|c:\\users\\edwar\\documents\\ppo\\programacionorientadaobjeto\\proyecto_final\\sistemainventarioventas\\sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\gestionventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\gestionventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\gestionventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\gestionventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,112 +67,16 @@
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\ventasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\ventasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\clientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,8 +87,104 @@
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\entidadbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\entidadbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\ventasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\ventasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\ventasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\movimientosinventarioform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\movimientosinventarioform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\productosform2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\productosform2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\metodospagoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pagosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pagosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\pedidosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\pedidosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,18 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\proveedoresform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedoresform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\proveedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\clientesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\sistemainventarioventas\\entidadbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36EACA4C-494B-40CD-92BB-85F5E0A2E2BA}|SistemaInventarioVentas\\SistemaInventarioVentas.csproj|solutionrelative:sistemainventarioventas\\entidadbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,27 +202,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuariosForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\UsuariosForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\UsuariosForm.Designer.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAvwIUAAAADAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UsuariosForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\UsuariosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\UsuariosForm.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv3oAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T03:52:58.339Z"
+              "WhenOpened": "2024-10-09T02:36:37.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "UsuariosForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\UsuariosForm.cs",
@@ -205,267 +233,195 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MetodosPagoForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "UsuariosForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\UsuariosForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\UsuariosForm.Designer.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAvwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:40:25.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseDatos.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\BaseDatos.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\BaseDatos.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\BaseDatos.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\BaseDatos.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAUwFYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:45:16.632Z"
+              "WhenOpened": "2024-10-09T03:52:58.339Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Form1.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Form1.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:37:33.999Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "LoginForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\LoginForm.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\LoginForm.cs",
               "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\LoginForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "SistemaInventarioVentas\\LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:48:59.242Z"
+              "WhenOpened": "2024-09-22T17:48:59.242Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "ProveedoresForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProveedoresForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProveedoresForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T00:36:38.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAwNsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:16:27.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\LoginForm.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\LoginForm.cs",
               "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\LoginForm.cs",
               "RelativeToolTip": "SistemaInventarioVentas\\LoginForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAewDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T17:51:47.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Producto.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Producto.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Producto.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\Producto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProveedoresForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProveedoresForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProveedoresForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:42:29.009Z"
+              "WhenOpened": "2024-10-07T00:29:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GestionVentasForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\GestionVentasForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\GestionVentasForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\GestionVentasForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\GestionVentasForm.cs",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAAwBcCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T05:44:13.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\DashboardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\DashboardForm.Designer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:41:49.464Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UsuariosForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\UsuariosForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\UsuariosForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\UsuariosForm.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswHoAAAABAAAAAAAAAA==",
+              "Title": "ProductosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T02:36:37.498Z"
+              "WhenOpened": "2024-09-22T17:37:33.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\DashboardForm.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAjwGYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T07:29:17.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GestionVentasForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\GestionVentasForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\GestionVentasForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\GestionVentasForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\GestionVentasForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T05:29:03.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\DashboardForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\DashboardForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:52:24.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Program.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\Program.cs",
               "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Program.cs",
               "RelativeToolTip": "SistemaInventarioVentas\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T22:06:17.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MetodosPagoForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAABBAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "BaseDatos.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\BaseDatos.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\BaseDatos.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\BaseDatos.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\BaseDatos.cs",
+              "ViewState": "AgIAAFoCAAAAAAAAAAAQwBwDAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:41:16.077Z"
+              "WhenOpened": "2024-09-22T17:45:16.632Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "MovimientosInventarioForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:43:22.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MetodoPago.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodoPago.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodoPago.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodoPago.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MetodoPago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:39:35.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MetodosPagoForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAADwvzAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:05:07.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PagosForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAnwDAAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T01:43:52.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Usuario.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\Usuario.cs",
               "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Usuario.cs",
               "RelativeToolTip": "SistemaInventarioVentas\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T17:44:08.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PagosForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T01:36:36.377Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "MovimientosInventarioForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAcwLsAAAAAAAAAAAAAAA==",
+              "Title": "ClientesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ClientesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ClientesForm.Designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwMoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:52:01.011Z"
+              "WhenOpened": "2024-10-07T00:16:12.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "MovimientosInventarioForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAswIcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:45:15.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MovimientoInventario.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientoInventario.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientoInventario.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientoInventario.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\MovimientoInventario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:41:59.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PagosForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T01:44:30.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pago.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Pago.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pago.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\Pago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T01:35:39.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VentasForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\VentasForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\VentasForm.Designer.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAWwJMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T03:27:51.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "VentasForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\VentasForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\VentasForm.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswGAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T03:26:54.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "VentasForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\VentasForm.cs",
@@ -476,113 +432,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PedidosForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PedidosForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\PedidosForm.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowGEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T01:13:32.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PedidosForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PedidosForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\PedidosForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T01:08:26.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pedido.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Pedido.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pedido.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T23:38:27.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ClientesForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ClientesForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\ClientesForm.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAmwG4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T00:06:04.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ClientesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ClientesForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\ClientesForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T23:45:56.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Cliente.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Cliente.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Cliente.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T23:42:55.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProveedoresForm.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProveedoresForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\ProveedoresForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwG0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T00:36:38.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Venta.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Venta.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Venta.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:52:25.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 19,
               "Title": "Transaccion.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Transaccion.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\Transaccion.cs",
               "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Transaccion.cs",
               "RelativeToolTip": "SistemaInventarioVentas\\Transaccion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T02:08:20.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 20,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Proveedor.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\Proveedor.cs",
@@ -594,7 +456,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 21,
+              "Title": "ProductosForm2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm2.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:17:44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Persona.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\Persona.cs",
@@ -606,7 +479,279 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PedidosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PedidosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\PedidosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:08:26.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pedido.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Pedido.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pedido.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T23:38:27.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PagosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:36:36.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pago.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Pago.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Pago.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\Pago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:35:39.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MovimientoInventario.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientoInventario.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientoInventario.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientoInventario.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MovimientoInventario.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T02:41:59.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MetodosPagoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T03:40:25.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MetodoPago.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodoPago.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodoPago.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodoPago.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MetodoPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T03:39:35.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EntidadBase.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\EntidadBase.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\EntidadBase.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\EntidadBase.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\EntidadBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T23:34:16.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Producto.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Producto.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Producto.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:42:29.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MovimientosInventarioForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAIwL0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T02:45:15.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VentasForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\VentasForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\VentasForm.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwGkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:26:54.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VentasForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\VentasForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\VentasForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\VentasForm.Designer.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAEwFIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:27:51.925Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "MovimientosInventarioForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.Designer.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAYwCYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T02:52:01.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MovimientosInventarioForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MovimientosInventarioForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MovimientosInventarioForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaInventarioVentas\\MovimientosInventarioForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T02:43:22.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductosForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:26:56.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductosForm2.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm2.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:19:13.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductosForm2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProductosForm2.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProductosForm2.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\ProductosForm2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:39:19.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Venta.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\Venta.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\Venta.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:52:25.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MetodosPagoForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T04:41:16.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MetodosPagoForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\MetodosPagoForm.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwvzAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T04:05:07.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PagosForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwDAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:43:52.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PagosForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.Designer.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PagosForm.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PagosForm.Designer.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\PagosForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T01:44:30.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PedidosForm.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioVentas\\PedidosForm.cs",
+              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.cs",
+              "RelativeToolTip": "SistemaInventarioVentas\\PedidosForm.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:13:32.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "PedidosForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\PedidosForm.Designer.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\PedidosForm.Designer.cs",
@@ -618,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "ProveedoresForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.Designer.cs",
               "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProveedoresForm.Designer.cs",
@@ -627,41 +772,6 @@
               "ViewState": "AgIAALkAAAAAAAAAAAAWwNYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T00:41:18.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProveedoresForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ProveedoresForm.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ProveedoresForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaInventarioVentas\\ProveedoresForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T00:29:51.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ClientesForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.Designer.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\ClientesForm.Designer.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\ClientesForm.Designer.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\ClientesForm.Designer.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAWwMYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T00:16:12.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EntidadBase.cs",
-              "DocumentMoniker": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\EntidadBase.cs",
-              "RelativeDocumentMoniker": "SistemaInventarioVentas\\EntidadBase.cs",
-              "ToolTip": "C:\\Users\\edwar\\Documents\\PPO\\ProgramacionOrientadaObjeto\\Proyecto_final\\SistemaInventarioVentas\\SistemaInventarioVentas\\EntidadBase.cs",
-              "RelativeToolTip": "SistemaInventarioVentas\\EntidadBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T23:34:16.716Z"
             }
           ]
         }

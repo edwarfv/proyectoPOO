@@ -42,6 +42,8 @@
             this.lblTipoMovimiento = new System.Windows.Forms.Label();
             this.lblCantidadMovimiento = new System.Windows.Forms.Label();
             this.lblDescripciónMovimiento = new System.Windows.Forms.Label();
+            this.txtBuscarMovimiento = new System.Windows.Forms.TextBox();
+            this.lblBuscar = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovimientosInventario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,11 +57,13 @@
             // 
             // cmbTipoMovimiento
             // 
+            this.cmbTipoMovimiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoMovimiento.FormattingEnabled = true;
             this.cmbTipoMovimiento.Location = new System.Drawing.Point(27, 256);
             this.cmbTipoMovimiento.Name = "cmbTipoMovimiento";
             this.cmbTipoMovimiento.Size = new System.Drawing.Size(272, 24);
             this.cmbTipoMovimiento.TabIndex = 2;
+            this.cmbTipoMovimiento.SelectedIndexChanged += new System.EventHandler(this.cmbTipoMovimiento_SelectedIndexChanged);
             // 
             // txtCantidad
             // 
@@ -89,42 +93,45 @@
             this.dgvMovimientosInventario.Name = "dgvMovimientosInventario";
             this.dgvMovimientosInventario.RowHeadersWidth = 51;
             this.dgvMovimientosInventario.RowTemplate.Height = 24;
-            this.dgvMovimientosInventario.Size = new System.Drawing.Size(591, 286);
+            this.dgvMovimientosInventario.Size = new System.Drawing.Size(751, 286);
             this.dgvMovimientosInventario.TabIndex = 6;
             // 
             // btnEliminarMovimiento
             // 
             this.btnEliminarMovimiento.Location = new System.Drawing.Point(686, 414);
             this.btnEliminarMovimiento.Name = "btnEliminarMovimiento";
-            this.btnEliminarMovimiento.Size = new System.Drawing.Size(101, 40);
+            this.btnEliminarMovimiento.Size = new System.Drawing.Size(107, 50);
             this.btnEliminarMovimiento.TabIndex = 28;
             this.btnEliminarMovimiento.Text = "Eliminar Movimiento";
             this.btnEliminarMovimiento.UseVisualStyleBackColor = true;
+            this.btnEliminarMovimiento.Click += new System.EventHandler(this.btnEliminarMovimiento_Click);
             // 
             // btnActualizarMovimiento
             // 
             this.btnActualizarMovimiento.Location = new System.Drawing.Point(568, 414);
             this.btnActualizarMovimiento.Name = "btnActualizarMovimiento";
-            this.btnActualizarMovimiento.Size = new System.Drawing.Size(100, 40);
+            this.btnActualizarMovimiento.Size = new System.Drawing.Size(102, 50);
             this.btnActualizarMovimiento.TabIndex = 27;
             this.btnActualizarMovimiento.Text = "Actualizar Movimiento";
             this.btnActualizarMovimiento.UseVisualStyleBackColor = true;
+            this.btnActualizarMovimiento.Click += new System.EventHandler(this.btnActualizarMovimiento_Click);
             // 
             // btnAgregarMovimiento
             // 
             this.btnAgregarMovimiento.Location = new System.Drawing.Point(452, 414);
             this.btnAgregarMovimiento.Name = "btnAgregarMovimiento";
-            this.btnAgregarMovimiento.Size = new System.Drawing.Size(101, 40);
+            this.btnAgregarMovimiento.Size = new System.Drawing.Size(110, 50);
             this.btnAgregarMovimiento.TabIndex = 26;
             this.btnAgregarMovimiento.Text = "Agregar Movimiento";
             this.btnAgregarMovimiento.UseVisualStyleBackColor = true;
+            this.btnAgregarMovimiento.Click += new System.EventHandler(this.btnAgregarMovimiento_Click);
             // 
             // lblFechaMovimiento
             // 
             this.lblFechaMovimiento.AutoSize = true;
             this.lblFechaMovimiento.Location = new System.Drawing.Point(24, 89);
             this.lblFechaMovimiento.Name = "lblFechaMovimiento";
-            this.lblFechaMovimiento.Size = new System.Drawing.Size(336, 20);
+            this.lblFechaMovimiento.Size = new System.Drawing.Size(269, 16);
             this.lblFechaMovimiento.TabIndex = 29;
             this.lblFechaMovimiento.Text = "Seleccione la fecha la fecha del movimiento";
             // 
@@ -142,7 +149,7 @@
             this.lblTipoMovimiento.AutoSize = true;
             this.lblTipoMovimiento.Location = new System.Drawing.Point(24, 237);
             this.lblTipoMovimiento.Name = "lblTipoMovimiento";
-            this.lblTipoMovimiento.Size = new System.Drawing.Size(395, 20);
+            this.lblTipoMovimiento.Size = new System.Drawing.Size(316, 16);
             this.lblTipoMovimiento.TabIndex = 31;
             this.lblTipoMovimiento.Text = "Seleccione el tipo de movimiento (Entrada o Salida)";
             // 
@@ -151,7 +158,7 @@
             this.lblCantidadMovimiento.AutoSize = true;
             this.lblCantidadMovimiento.Location = new System.Drawing.Point(24, 299);
             this.lblCantidadMovimiento.Name = "lblCantidadMovimiento";
-            this.lblCantidadMovimiento.Size = new System.Drawing.Size(269, 20);
+            this.lblCantidadMovimiento.Size = new System.Drawing.Size(215, 16);
             this.lblCantidadMovimiento.TabIndex = 32;
             this.lblCantidadMovimiento.Text = "Ingrese la cantidad del movimiento";
             // 
@@ -160,15 +167,35 @@
             this.lblDescripciónMovimiento.AutoSize = true;
             this.lblDescripciónMovimiento.Location = new System.Drawing.Point(24, 363);
             this.lblDescripciónMovimiento.Name = "lblDescripciónMovimiento";
-            this.lblDescripciónMovimiento.Size = new System.Drawing.Size(216, 20);
+            this.lblDescripciónMovimiento.Size = new System.Drawing.Size(173, 16);
             this.lblDescripciónMovimiento.TabIndex = 33;
             this.lblDescripciónMovimiento.Text = "Descripción del movimiento";
+            // 
+            // txtBuscarMovimiento
+            // 
+            this.txtBuscarMovimiento.Location = new System.Drawing.Point(549, 81);
+            this.txtBuscarMovimiento.Name = "txtBuscarMovimiento";
+            this.txtBuscarMovimiento.Size = new System.Drawing.Size(474, 22);
+            this.txtBuscarMovimiento.TabIndex = 34;
+            this.txtBuscarMovimiento.TextChanged += new System.EventHandler(this.txtBuscarMovimiento_TextChanged);
+            // 
+            // lblBuscar
+            // 
+            this.lblBuscar.AutoSize = true;
+            this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscar.Location = new System.Drawing.Point(447, 77);
+            this.lblBuscar.Name = "lblBuscar";
+            this.lblBuscar.Size = new System.Drawing.Size(79, 25);
+            this.lblBuscar.TabIndex = 35;
+            this.lblBuscar.Text = "Buscar";
             // 
             // MovimientosInventarioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1348, 620);
+            this.Controls.Add(this.lblBuscar);
+            this.Controls.Add(this.txtBuscarMovimiento);
             this.Controls.Add(this.lblDescripciónMovimiento);
             this.Controls.Add(this.lblCantidadMovimiento);
             this.Controls.Add(this.lblTipoMovimiento);
@@ -208,5 +235,8 @@
         private System.Windows.Forms.Label lblTipoMovimiento;
         private System.Windows.Forms.Label lblCantidadMovimiento;
         private System.Windows.Forms.Label lblDescripciónMovimiento;
+        private System.Windows.Forms.TextBox txtBuscarMovimiento;
+        private System.Windows.Forms.Label lblBuscar;
     }
+
 }

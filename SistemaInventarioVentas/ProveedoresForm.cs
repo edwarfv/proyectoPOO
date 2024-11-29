@@ -18,6 +18,10 @@ namespace SistemaInventarioVentas
         {
             InitializeComponent();
             CargarProveedores(); // Cargar la lista de proveedores al iniciar el formulario
+
+            txtBuscar.TextChanged += txtBuscar_TextChanged;  // Evento de búsqueda automática
+            // Asignar el evento CellClick al DataGridView
+            dgvProveedores.CellClick += dgvProveedores_CellClick;
         }
 
         // Método para cargar los proveedores desde la base de datos
@@ -25,7 +29,17 @@ namespace SistemaInventarioVentas
         {
             try
             {
-                dgvProveedores.DataSource = db.ObtenerProveedores(); // Mostrar los proveedores en el DataGridView
+                dgvProveedores.DataSource = db.ObtenerProveedores();  // Llenar el DataGridView con la lista de proveedores desde la base de datos
+
+                // Ajustar automáticamente el ancho de las columnas al contenido
+                dgvProveedores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+                // Ajustar automáticamente la altura de las filas al contenido
+                dgvProveedores.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
+                // Alinear el encabezado para que tenga una buena presentación
+                dgvProveedores.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            
             }
             catch (Exception ex)
             {
@@ -148,19 +162,34 @@ namespace SistemaInventarioVentas
                 }
                 else
                 {
+                    // Buscar proveedores en la base de datos y actualizar el DataGridView
                     dgvProveedores.DataSource = db.BuscarProveedores(txtBuscar.Text);
+
+                    // Validación adicional para asegurar que haya resultados antes de aplicar el formato
+                    if (dgvProveedores.DataSource != null && dgvProveedores.Rows.Count > 0)
+                    {
+                        // Ajustar automáticamente el ancho de las columnas al contenido
+                        dgvProveedores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+                        // Ajustar automáticamente la altura de las filas al contenido
+                        dgvProveedores.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
+                        // Alinear el encabezado para que tenga una buena presentación
+                        dgvProveedores.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                    }
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al buscar proveedores: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         // Evento para cargar datos seleccionados en los TextBox
         private void dgvProveedores_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
+            if (e.RowIndex >= 0) // Verificar si el índice de fila es válido
             {
                 DataGridViewRow fila = dgvProveedores.Rows[e.RowIndex];
 

@@ -11,6 +11,9 @@ namespace SistemaInventarioVentas
         [STAThread]
         static void Main()
         {
+           
+
+
             // Configura la aplicación para usar los estilos visuales de Windows y hace compatible el renderizado de texto.
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -21,12 +24,18 @@ namespace SistemaInventarioVentas
             // Si el login fue exitoso, muestra el formulario principal.
             if (loginForm.ShowDialog() == DialogResult.OK)
             {
+                // Ejecuta el formulario principal (DashboardForm).
+                DashboardForm dashboard = new DashboardForm();
+
                 // Ejecuta el formulario principal (Form1).
-                Application.Run(new Form1());
+                Application.Run(new DashboardForm());
             }
 
             // Libera los recursos del formulario de login después de cerrarlo.
-            loginForm.Dispose();
-        }
+            // loginForm.Dispose();
+
+          }
+       
     }
+
 }

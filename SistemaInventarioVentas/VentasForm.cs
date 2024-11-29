@@ -52,6 +52,37 @@ namespace SistemaInventarioVentas
         }
 
         // Evento para agregar una venta
+        /* private void btnAgregarVenta_Click(object sender, EventArgs e)
+         {
+             try
+             {
+                 if (cmbCliente.SelectedItem == null)
+                 {
+                     MessageBox.Show("Por favor, selecciona un cliente.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                     return;
+                 }
+
+                 // Crear una instancia de la venta pasando todos los argumentos requeridos
+                 var venta = new Venta(
+                     int.Parse(cmbCliente.SelectedValue.ToString()), // Obtener el ID del cliente seleccionado
+                     dtpFecha.Value, // Obtener la fecha seleccionada del DateTimePicker
+                     decimal.Parse(txtTotal.Text) // Obtener el total de la venta
+                 );
+
+                 // db.AgregarVenta(venta); // Agregar la venta a la base de datos
+                 db.AgregarVenta(
+                      int.Parse(cmbCliente.SelectedValue.ToString()), // ID del cliente seleccionado
+                      dtpFecha.Value, // Fecha de la venta
+                      decimal.Parse(txtTotal.Text) // Total de la venta
+                 );
+                 CargarVentas(); // Recargar la lista de ventas
+                 LimpiarCampos(); // Limpiar campos después de agregar
+             }
+             catch (Exception ex)
+             {
+                 MessageBox.Show($"Error al agregar la venta: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+             }
+         }*/
         private void btnAgregarVenta_Click(object sender, EventArgs e)
         {
             try
@@ -62,14 +93,20 @@ namespace SistemaInventarioVentas
                     return;
                 }
 
-                // Crear una instancia de la venta pasando todos los argumentos requeridos
+                // Crear una instancia de la venta con los valores ingresados (opcional)
                 var venta = new Venta(
                     int.Parse(cmbCliente.SelectedValue.ToString()), // Obtener el ID del cliente seleccionado
                     dtpFecha.Value, // Obtener la fecha seleccionada del DateTimePicker
                     decimal.Parse(txtTotal.Text) // Obtener el total de la venta
                 );
 
-                db.AgregarVenta(venta); // Agregar la venta a la base de datos
+                // Llamar al método AgregarVenta con los valores de la instancia de venta
+                db.AgregarVenta(
+                    venta.ClienteId, // ID del cliente seleccionado
+                    venta.Fecha, // Fecha de la venta
+                    venta.Total // Total de la venta
+                );
+
                 CargarVentas(); // Recargar la lista de ventas
                 LimpiarCampos(); // Limpiar campos después de agregar
             }
@@ -149,6 +186,9 @@ namespace SistemaInventarioVentas
             txtTotal.Clear(); // Limpiar el campo del total
         }
 
+        private void dgvVentas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
     }
 }

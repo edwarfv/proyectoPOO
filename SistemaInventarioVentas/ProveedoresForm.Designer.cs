@@ -96,6 +96,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(484, 22);
             this.txtBuscar.TabIndex = 6;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // lblNombre
             // 
@@ -164,41 +165,44 @@
             this.dgvProveedores.Name = "dgvProveedores";
             this.dgvProveedores.RowHeadersWidth = 51;
             this.dgvProveedores.RowTemplate.Height = 24;
-            this.dgvProveedores.Size = new System.Drawing.Size(574, 322);
+            this.dgvProveedores.Size = new System.Drawing.Size(787, 322);
             this.dgvProveedores.TabIndex = 13;
             // 
             // btnAgregarProveedor
             // 
             this.btnAgregarProveedor.Location = new System.Drawing.Point(420, 477);
             this.btnAgregarProveedor.Name = "btnAgregarProveedor";
-            this.btnAgregarProveedor.Size = new System.Drawing.Size(101, 40);
+            this.btnAgregarProveedor.Size = new System.Drawing.Size(110, 57);
             this.btnAgregarProveedor.TabIndex = 14;
             this.btnAgregarProveedor.Text = "Agregar Proveedor";
             this.btnAgregarProveedor.UseVisualStyleBackColor = true;
+            this.btnAgregarProveedor.Click += new System.EventHandler(this.btnAgregarProveedor_Click);
             // 
             // btnActualizarProveedor
             // 
             this.btnActualizarProveedor.Location = new System.Drawing.Point(536, 477);
             this.btnActualizarProveedor.Name = "btnActualizarProveedor";
-            this.btnActualizarProveedor.Size = new System.Drawing.Size(100, 40);
+            this.btnActualizarProveedor.Size = new System.Drawing.Size(112, 57);
             this.btnActualizarProveedor.TabIndex = 15;
             this.btnActualizarProveedor.Text = "Actualizar Proveedor";
             this.btnActualizarProveedor.UseVisualStyleBackColor = true;
+            this.btnActualizarProveedor.Click += new System.EventHandler(this.btnActualizarProveedor_Click);
             // 
             // btnEliminarProveedor
             // 
             this.btnEliminarProveedor.Location = new System.Drawing.Point(654, 477);
             this.btnEliminarProveedor.Name = "btnEliminarProveedor";
-            this.btnEliminarProveedor.Size = new System.Drawing.Size(101, 40);
+            this.btnEliminarProveedor.Size = new System.Drawing.Size(103, 57);
             this.btnEliminarProveedor.TabIndex = 16;
             this.btnEliminarProveedor.Text = "Eliminar Proveedor";
             this.btnEliminarProveedor.UseVisualStyleBackColor = true;
+            this.btnEliminarProveedor.Click += new System.EventHandler(this.btnEliminarProveedor_Click);
             // 
             // ProveedoresForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 700);
+            this.ClientSize = new System.Drawing.Size(1287, 700);
             this.Controls.Add(this.btnEliminarProveedor);
             this.Controls.Add(this.btnActualizarProveedor);
             this.Controls.Add(this.btnAgregarProveedor);

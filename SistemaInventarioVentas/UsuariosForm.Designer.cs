@@ -76,7 +76,7 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Location = new System.Drawing.Point(28, 116);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(153, 20);
+            this.lblUsuario.Size = new System.Drawing.Size(122, 16);
             this.lblUsuario.TabIndex = 4;
             this.lblUsuario.Text = "Nombre de usuario";
             // 
@@ -85,7 +85,7 @@
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Location = new System.Drawing.Point(28, 211);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(95, 20);
+            this.lblContraseña.Size = new System.Drawing.Size(76, 16);
             this.lblContraseña.TabIndex = 5;
             this.lblContraseña.Text = "Contraseña";
             // 
@@ -131,7 +131,6 @@
             this.Controls.Add(this.txtUsername);
             this.Name = "UsuariosForm";
             this.Text = "UsuariosForm";
- //           this.Load += new System.EventHandler(this.UsuariosForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient; // cnx BD
 using System.Data;//cnx BD
+using System.Windows.Forms;
 
 namespace SistemaInventarioVentas
 {
     internal class BaseDatos
     {
-        private string connectionString = "server=localhost;database=InventarioDB;uid=root;pwd=Edwar5420*;";
+        private string connectionString = "server=localhost;database=Inventariosdbvf;uid=root;pwd=Edwar5420*;";
 
         public MySqlConnection ObtenerConexion()
         {
@@ -36,10 +37,13 @@ namespace SistemaInventarioVentas
             using (var conn = ObtenerConexion())
             {
                 conn.Open();
-                var cmd = new MySqlCommand("INSERT INTO Productos (Nombre, Precio, Cantidad) VALUES (@nombre, @precio, @cantidad)", conn);
+                var cmd = new MySqlCommand("INSERT INTO Productos (Nombre, Precio, Cantidad, CategoriaId) VALUES (@nombre, @precio, @cantidad, @CategoriaId)", conn);
                 cmd.Parameters.AddWithValue("@nombre", producto.Nombre);
                 cmd.Parameters.AddWithValue("@precio", producto.Precio);
                 cmd.Parameters.AddWithValue("@cantidad", producto.Cantidad);
+                cmd.Parameters.AddWithValue("@CategoriaId", producto.CategoriaId);
+
+
                 cmd.ExecuteNonQuery();
             }
         }
@@ -69,6 +73,22 @@ namespace SistemaInventarioVentas
             }
         }
 
+        public DataTable ObtenerCategorias()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT Id, Nombre FROM Categorias";  // Consulta para obtener el Id y el Nombre de las categorías
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);  // Llenar el DataTable con los resultados
+                    return dt;  // Devolver el DataTable con las categorías
+                }
+            }
+        }
         // Método para buscar productos
         public DataTable BuscarProductos(string filtro)
         {
@@ -305,7 +325,7 @@ namespace SistemaInventarioVentas
             }
         }
         // Metodos para obtener venta
-        public void AgregarVenta(Venta venta)
+        /*public void AgregarVenta(Venta venta)
         {
             using (var conn = ObtenerConexion())
             {
@@ -316,7 +336,38 @@ namespace SistemaInventarioVentas
                 cmd.Parameters.AddWithValue("@total", venta.Total);
                 cmd.ExecuteNonQuery();
             }
+        }*/
+        public int AgregarVenta(int clienteId, DateTime fechaVenta, decimal total)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("INSERT INTO Ventas (ClienteId, Fecha, Total) VALUES (@clienteId, @fecha, @total); SELECT LAST_INSERT_ID();", conn);
+                cmd.Parameters.AddWithValue("@clienteId", clienteId);
+                cmd.Parameters.AddWithValue("@fecha", fechaVenta);
+                cmd.Parameters.AddWithValue("@total", total);
+                // cmd.ExecuteNonQuery();
+                // Ejecutar la consulta y devolver el ID de la venta recién creada
+                return Convert.ToInt32(cmd.ExecuteScalar());
+            }
         }
+
+        public void AgregarDetalleVenta(int ventaId, int productoId, int cantidad, decimal precioUnitario, decimal descuento, decimal total)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("INSERT INTO DetalleVentas (VentaId, ProductoId, Cantidad, PrecioUnitario, Descuento, Total) VALUES (@ventaId, @productoId, @cantidad, @precioUnitario, @descuento, @total)", conn);
+                cmd.Parameters.AddWithValue("@ventaId", ventaId);
+                cmd.Parameters.AddWithValue("@productoId", productoId);
+                cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                cmd.Parameters.AddWithValue("@precioUnitario", precioUnitario);
+                cmd.Parameters.AddWithValue("@descuento", descuento);
+                cmd.Parameters.AddWithValue("@total", total);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
         public void ActualizarVenta(Venta venta)
         {
             using (var conn = ObtenerConexion())
@@ -440,7 +491,8 @@ namespace SistemaInventarioVentas
             using (var conn = ObtenerConexion())
             {
                 conn.Open();
-                var cmd = new MySqlCommand("INSERT INTO MovimientoInventario (ProductoId, Cantidad, TipoMovimiento, Fecha, Motivo) VALUES (@productoId, @cantidad, @tipoMovimiento, @fecha, @motivo)", conn);
+                var cmd = new MySqlCommand("INSERT INTO MovimientoInventario (ProductoId, Cantidad, TipoMovimiento, Fecha, Motivo) " +
+                                           "VALUES (@productoId, @cantidad, @tipoMovimiento, @fecha, @motivo)", conn);
                 cmd.Parameters.AddWithValue("@productoId", movimiento.ProductoId);
                 cmd.Parameters.AddWithValue("@cantidad", movimiento.Cantidad);
                 cmd.Parameters.AddWithValue("@tipoMovimiento", movimiento.TipoMovimiento);
@@ -449,6 +501,7 @@ namespace SistemaInventarioVentas
                 cmd.ExecuteNonQuery();
             }
         }
+
 
         public void ActualizarMovimientoInventario(MovimientoInventario movimiento)
         {
@@ -573,7 +626,175 @@ namespace SistemaInventarioVentas
                 cmd.ExecuteNonQuery();
             }
         }
+        public void ActualizarCantidadProducto(int productoId, int nuevaCantidad)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "UPDATE Productos SET Cantidad = @NuevaCantidad WHERE Id = @ProductoId";
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@NuevaCantidad", nuevaCantidad);
+                    cmd.Parameters.AddWithValue("@ProductoId", productoId);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
 
+        public int ObtenerCantidadProducto(int productoId)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT Cantidad FROM Productos WHERE Id = @ProductoId";
+                    using (var cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@ProductoId", productoId);
 
+                        // Ejecutar la consulta y obtener la cantidad actual
+                        object result = cmd.ExecuteScalar();
+
+                        // Validar si el resultado es nulo
+                        if (result != null && int.TryParse(result.ToString(), out int cantidad))
+                        {
+                            return cantidad;
+                        }
+                        else
+                        {
+                            return 0; // Si no hay un resultado válido, devolver 0
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Mostrar un mensaje de error y retornar 0 si ocurre un error
+                    System.Windows.Forms.MessageBox.Show($"Error al obtener la cantidad del producto: {ex.Message}", "Error", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                    return 0;
+                }
+            }
+        }
+
+        public DataTable BuscarMovimientosInventario(string filtro)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                string query = "SELECT * FROM MovimientoInventario WHERE Motivo LIKE @filtro OR TipoMovimiento LIKE @filtro OR Fecha LIKE @filtro";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@filtro", "%" + filtro + "%");
+                    MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    return dt;
+                }
+            }
+        }
+
+        public Cliente ObtenerClientePorId(int clienteId)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("SELECT * FROM Clientes WHERE Id = @clienteId", conn);
+                cmd.Parameters.AddWithValue("@clienteId", clienteId);
+
+                using (var reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        // Extraer los datos del cliente y crear una instancia del cliente
+                        Cliente cliente = new Cliente(
+                            reader["Nombre"].ToString(),
+                            reader["Telefono"].ToString(),
+                            reader["Email"].ToString(),
+                            reader["Direccion"].ToString()
+                        )
+                        {
+                            Id = clienteId // Asignar el ID del cliente
+                        };
+                        return cliente;
+                    }
+                    else
+                    {
+                        throw new Exception("Cliente no encontrado.");
+                    }
+                }
+            }
+        }
+
+        public DataTable ObtenerDetallesVenta(int ventaId)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                var query = @"
+            SELECT dv.Id, dv.VentaId, dv.ProductoId, p.Nombre AS Producto, dv.Cantidad, dv.PrecioUnitario, dv.Descuento, dv.Total
+            FROM DetalleVentas dv
+            INNER JOIN Productos p ON dv.ProductoId = p.Id
+            WHERE dv.VentaId = @ventaId";
+
+                var cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ventaId", ventaId);
+
+                var da = new MySqlDataAdapter(cmd);
+                var dt = new DataTable();
+                da.Fill(dt);
+                // Verificación para ver si se obtuvieron datos
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show("No se encontraron detalles de venta para el ID especificado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
+                return dt;
+            }
+        }
+
+        public decimal ObtenerPrecioProducto(int productoId)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+                var query = "SELECT Precio FROM Productos WHERE Id = @ProductoId";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@ProductoId", productoId);
+
+                    object result = cmd.ExecuteScalar();
+                    if (result != null && decimal.TryParse(result.ToString(), out decimal precio))
+                    {
+                        return precio;
+                    }
+                    else
+                    {
+                        throw new Exception("No se pudo encontrar el precio del producto especificado.");
+                    }
+                }
+            }
+        }
+
+        public void RegistrarMovimientoVenta(int productoId, int cantidad, DateTime fecha, string motivo)
+        {
+            using (var conn = ObtenerConexion())
+            {
+                conn.Open();
+
+                // Actualizar la cantidad en el inventario
+                var cmdActualizar = new MySqlCommand("UPDATE Productos SET Cantidad = Cantidad - @cantidad WHERE Id = @productoId", conn);
+                cmdActualizar.Parameters.AddWithValue("@productoId", productoId);
+                cmdActualizar.Parameters.AddWithValue("@cantidad", cantidad);
+                cmdActualizar.ExecuteNonQuery();
+
+                // Registrar el movimiento en la tabla MovimientoInventario
+                var cmdMovimiento = new MySqlCommand("INSERT INTO MovimientoInventario (ProductoId, Cantidad, TipoMovimiento, Fecha, Motivo) VALUES (@productoId, @cantidad, 'Salida', @fecha, 'Venta realizada')", conn);
+                cmdMovimiento.Parameters.AddWithValue("@productoId", productoId);
+                cmdMovimiento.Parameters.AddWithValue("@cantidad", cantidad);
+                cmdMovimiento.Parameters.AddWithValue("@fecha", fecha);
+                cmdMovimiento.Parameters.AddWithValue("@motivo", motivo);
+                cmdMovimiento.ExecuteNonQuery();
+            }
+        }
     }
 }
